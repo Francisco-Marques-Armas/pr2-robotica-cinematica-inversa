@@ -103,6 +103,9 @@ while (dist > EPSILON and abs(prev-dist) > EPSILON/100.):
     angulo_diferencia = angulo_art_obj - angulo_art_final
     th[numero_puntos - 1 - i] += angulo_diferencia
     # Calculamos tangente 1: ángulo entre vector articulacion y objetivo y eje x
+    # si es una prismática, no se modifica el ángulo
+    # calcular a
+
     O.append(cin_dir(th,a))
 
   dist = np.linalg.norm(np.subtract(objetivo,O[-1][-1]))

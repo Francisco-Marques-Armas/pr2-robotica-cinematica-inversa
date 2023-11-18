@@ -1,0 +1,5 @@
+# TIPO THETA ALPHA LIM
+R 0. 5. 180
+R 0. 5. 180
+R 0. 5. 180
+P 0. 5. 4
